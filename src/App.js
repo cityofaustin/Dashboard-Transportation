@@ -1,5 +1,5 @@
 import React from "react";
-import Controller from "mapboard-components/build/Controller";
+import Controller from "mapboard-components/build/Controller/Controller.js";
 import {
   BrowserRouter as Router,
   Route,
@@ -11,9 +11,9 @@ import SignalRequest from "./Config/SignalRequest";
 import SignalProjects from "./Config/SignalProjects";
 import SignalTiming from "./Config/SignalTiming";
 import Cards from "./Config/Operations";
-import Card from "mapboard-components/build/Card";
-import Header from "mapboard-components/build/Header";
-import Home from "mapboard-components/build/Home";
+import Card from "mapboard-components/build/Card/Card.js";
+import Header from "mapboard-components/build/Header/Header.js";
+import Home from "mapboard-components/build/Home/Home.js";
 let card = {
   id: "signals-on-flash",
   row_container_id: "panel-row-3",

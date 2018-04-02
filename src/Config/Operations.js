@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from "mapboard-components/build/Card";
+import Card from "mapboard-components/build/Card/Card.js";
 import {data} from './objects';
 
 class Operations extends Component {
