@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from "mapboard-components/build/Card/Card.js";
 import {data} from './objects';
+import './Operations.css'
 
 class Operations extends Component {
   constructor(props){
@@ -20,9 +21,9 @@ class Operations extends Component {
   };
   render() {
     return (
-      <div className="App">
+      <div className="App black">
           {data.map((item, index) => {
-              return <Card year={this.state.year} config={item} key={index}/>
+              return <Card className="flex-card" year={this.state.year} config={item} key={index}/>
           })}
               <ul>
                   <li value={2016} onClick={this.handleClick}>2016</li>

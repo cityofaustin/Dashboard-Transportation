@@ -1,0 +1,9 @@
+.black{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-card{
+    flex-basis: 19%;
+    margin: 2px;
+}
