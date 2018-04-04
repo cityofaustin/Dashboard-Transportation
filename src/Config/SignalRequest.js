@@ -2,7 +2,7 @@ export default {
     url: "https://data.austintexas.gov/resource/f6qu-b7zb.json",
     id_match: "atd_eval_id",
     string_filter: 'location_name',
-    uniqBy: 'location_name',
+    uniqBy: ['location_name','eval_type'],
     center: [30.3, -97.7],
     marker_type: 'circle',
     color: '1',

@@ -25,9 +25,5 @@ export default {
       format: "date",
       alt: "Status Date"
     },
-    {
-      name: "todo: math",
-      format: "timeH"
-    }
   ],
 };

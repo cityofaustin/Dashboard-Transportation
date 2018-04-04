@@ -38,7 +38,9 @@ export default {
       {
         title: 'Timed',
         type: 'doughnut',
-
+        total: 'signal_count',
+        marker: 'retime_status',
+        percent: 'COMPLETED',
       }
     ]
 }
