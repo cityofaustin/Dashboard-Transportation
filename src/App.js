@@ -7,7 +7,7 @@ import {
   Redirect
 } from "react-router-dom";
 import SignalFlashing from "./Config/SignalFlashing";
-/*import SignalRequest from "./Config/SignalRequest";*/
+import SignalRequest from "./Config/SignalRequest";
 import SignalProjects from "./Config/SignalProjects";
 import SignalTiming from "./Config/SignalTiming";
 import Cards from "./Config/Operations";
@@ -35,7 +35,7 @@ let card = {
 const pages = [
   { name: "Signal Flashing", link: "/signal-flashing" },
   { name: "Signal Timing", link: "/signal-timing" },
-  /*{ name: "Signal Requests", link: "/signal-requests" },*/
+  { name: "Signal Requests", link: "/signal-requests" },
   { name: "Signal Projects", link: "/signal-projects" },
   { name: "Operation Overview", link: "operation-overview" }
 ];
@@ -54,7 +54,7 @@ export default class App extends React.Component {
             <Route exact path="/" component={home} />
             <Route exact path="/signal-timing" component={signalTiming} />
             <Route exact path="/signal-flashing" component={signalFlash} />
-            {/*<Route exact path="/signal-requests" component={signalRequest} />*/}
+            <Route exact path="/signal-requests" component={signalRequest} />
             <Route excat path="/signal-projects" component={signalProjects} />
             <Route exact path="/operation-overview" component={cards} />
             <Redirect to="/" />
@@ -74,7 +74,7 @@ const signalFlash = () => (
   </div>
 );
 
-/*const signalRequest = () => <Controller config={SignalRequest} />;*/
+const signalRequest = () => <Controller config={SignalRequest} />;
 
 const signalProjects = () => <Controller config={SignalProjects} />;
 

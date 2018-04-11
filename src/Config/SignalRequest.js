@@ -1,4 +1,3 @@
-/*
 export default {
     url: "https://data.austintexas.gov/resource/f6qu-b7zb.json",
     id_match: "atd_eval_id",
@@ -26,4 +25,4 @@ export default {
             alt: 'Status'
         }
     ]
-}*/
+}
